@@ -1,4 +1,4 @@
-const API_URL = process.env.SERVER_URL;
+const API_URL = 'https://mark-your-travels.herokuapp.com';
 
 export async function listLogEntries() {
     const resp = await fetch(API_URL + '/api/logs');
